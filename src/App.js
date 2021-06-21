@@ -4,6 +4,7 @@ import StateWise from './Statewise.jsx';
 import Header from './html/Header.jsx';
 import About from './html/About.jsx';
 import Vaccination from './html/Vaccination.jsx';
+import Home from './html/Home.jsx';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <Switch>
       <Route exact path="/about" component={About} />
       <Route exact path="/vaccination" component={Vaccination} />
-      <Route exact path="/" component={StateWise} />
+      <Route exact path="/statewise" component={StateWise} />
+      <Route exact path="/" component={Home} />
     </Switch>
     </>
     

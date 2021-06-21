@@ -8,11 +8,12 @@ const Header = () =>{
 	return(
 		<>
 		  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
-			  <Navbar.Brand href="#home">React</Navbar.Brand>
+			  <Navbar.Brand>TRACKER</Navbar.Brand>
 			  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			  <Navbar.Collapse id="responsive-navbar-nav justify-content-end">
 			    <Nav className="mr-auto">
-			      <Nav.Link><NavLink to='/' >Covid19</NavLink></Nav.Link>
+			      <Nav.Link><NavLink to='/' >Home</NavLink></Nav.Link>
+			      <Nav.Link><NavLink to='/statewise' >Covid19</NavLink></Nav.Link>
 			      <Nav.Link><NavLink to="/vaccination" >Vaccination</NavLink></Nav.Link>
 			      <NavDropdown title="About Us" id="collasible-nav-dropdown">
 			        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

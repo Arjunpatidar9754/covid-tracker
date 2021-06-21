@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import {Table} from 'react-bootstrap';
 
 const StateWise = () => {
 	const [data, setdata] = useState([]);
@@ -16,10 +17,10 @@ const StateWise = () => {
 	}, []);
 	return(
 		<>
-		<h1> StateWise Data </h1>
+		<h1 align='center'> StateWise Data </h1>
 		<div>
 			<div>
-				<table border="2px">
+				<Table responsive>
 					<thead>
 						<tr>
 							<th>State</th>
@@ -47,7 +48,7 @@ const StateWise = () => {
 						}
 						
 					</tbody>
-				</table>
+				</Table>
 			</div>
 		</div>
 		</>
