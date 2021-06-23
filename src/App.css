@@ -1,1 +1,48 @@
+/* Header   */
+.nav-link {
+	margin-top: -5px;
+	margin-bottom: -3px;
 
+}
+.my-link{
+	color: ghostwhite !important;
+}
+
+/* Footer */
+.footer{
+	background-color: #212427;
+	color: ghostwhite;
+	padding-top: 80px;
+	
+	padding-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.p-small {
+	color: #f1f1f8;
+	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+}
+.copyright{
+	color: #f1f1f8;
+	background-color: #212427;
+	text-align: center;
+}
+.myIcon{
+	background-color: ghostwhite;
+	border-radius: 50%;
+	padding: 8px 10px 12px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #212427;
+}
+.myIconDiv{
+	padding-top: 15px;
+	padding-right: 8px;
+	margin-top: 10px;
+	display: ruby-base;
+
+}
+.footer h4{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
