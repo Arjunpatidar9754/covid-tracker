@@ -49,23 +49,3 @@
 </body>
 
 </html>
-
-
-
-// Getting appoinments by Pincode
-  const appoinmentsByPin = await findByPin(403601, "03-05-2021");
-
-  // Getting appoinments by Districts
-  const appoinmentsByDistrict = await findByDistrict(
-    districts.districts[0].district_id,
-    "03-05-2021"
-  );
-
-  // get planned vaccination sessions for 7 days from a specific date in a given district.
-  const CalendarByPin = await calendarByPin(403601, "03-05-2021");
-
-  // get planned vaccination sessions for 7 days from a specific date in a given pincode.
-  const CalendarByDistrict = await calendarByDistrict(
-    districts.districts[0].district_id,
-    "03-05-2021"
-  );
