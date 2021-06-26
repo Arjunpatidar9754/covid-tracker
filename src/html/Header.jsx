@@ -16,12 +16,13 @@ const Header = () =>{
 			      <Nav.Link href="#"><NavLink to='/' className="nav-link my-link">Home</NavLink></Nav.Link>
 			      <Nav.Link href="#"><NavLink to='/statewise' className="nav-link my-link">Covid19</NavLink></Nav.Link>
 			      <Nav.Link href="#"><NavLink to="/vaccination" className="nav-link my-link">Vaccination</NavLink></Nav.Link>
-			      <NavDropdown style={{color: "red !important"}} title="About Us" id="collasible-nav-dropdown" className="nav-link">
+			      <Nav.Link href="#"><NavLink to="/about" className="nav-link my-link">About Us</NavLink></Nav.Link>
+			      <NavDropdown style={{color: "red !important"}} title="DropDown" id="collasible-nav-dropdown" className="nav-link">
 			        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
 			        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
 			        <NavDropdown.Item href="#action/3.3">T&C</NavDropdown.Item>
 			        <NavDropdown.Divider />
-			        <NavDropdown.Item href="#"><NavLink to='/about' className="nav-link my-link">About Us</NavLink></NavDropdown.Item>
+			        <NavDropdown.Item href="#">About Us</NavDropdown.Item>
 			      </NavDropdown>
 			    </Nav>
 			  </Navbar.Collapse>
